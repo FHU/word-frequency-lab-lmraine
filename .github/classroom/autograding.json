@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "",
+      "run": "python main.py",
+      "input": "hey hi Mark hi mark",
+      "output": "Mark - 1\r\nhey - 1\r\nhi - 2\r\nmark - 1\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "test2",
+      "setup": "",
+      "run": "python main.py",
+      "input": "zyBooks now zyBooks later zyBooks forever",
+      "output": "forever - 1\r\nlater - 1\r\nnow - 1\r\nzyBooks - 3\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "test3",
+      "setup": "",
+      "run": "python main.py",
+      "input": "a cat and a dog may fight but a cat and a cat may fight more",
+      "output": "a - 4\r\nand - 2\r\nbut - 1\r\ncat - 3\r\ndog - 1\r\nfight - 2\r\nmay - 2\r\nmore - 1\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "test4",
+      "setup": "",
+      "run": "python main.py",
+      "input": "Mango test banana Mango test mango banana test test",
+      "output": "Mango - 2\r\nbanana - 2\r\nmango - 1\r\ntest - 4\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 25
+    }
+  ]
+}
